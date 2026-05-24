@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 
-import { SendHorizontal } from 'lucide-vue-next';
+import { SendHorizontal } from '@lucide/vue';
 
 import { useChatSimulation } from '../composables/useChatSimulation';
 import { useChatStore } from '../stores/useChatStore';

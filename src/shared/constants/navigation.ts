@@ -4,7 +4,7 @@ import {
     Library,
     Settings,
     Sparkles,
-} from 'lucide-vue-next';
+} from '@lucide/vue';
 
 export const navigation = [
     {

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Moon, Sparkles, Sun } from 'lucide-vue-next';
+import { Moon, Sparkles, Sun } from '@lucide/vue';
 
 import { useThemeStore } from '@/features/settings/stores/useThemeStore';
 
