@@ -1,7 +1,9 @@
-interface RequestConfig
-    extends RequestInit {
+type RequestConfig = Omit<
+    RequestInit,
+    'body'
+> & {
     body?: unknown;
-}
+};
 
 async function request<T>(
     url: string,
